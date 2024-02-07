@@ -9,4 +9,4 @@ class Fotografia(models.Model):
 
 
     def __str__(self) -> str:
-        return f"Fotografia  Nome{self.nome}"
+        return f"Fotografia  Nome: {self.nome}"
