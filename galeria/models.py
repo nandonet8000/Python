@@ -21,6 +21,8 @@ class Fotografia(models.Model):
     publicada = models.BooleanField(default=False)
     
 
+class TesteAaa(models.Model):
+    teste = name = models.CharField(max_length=60, blank=True, null=True)
 
     def __str__(self) -> str:
         return self.nome
